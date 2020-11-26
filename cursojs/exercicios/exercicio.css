@@ -1,0 +1,97 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1100px;
+    height: 650px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    /* background-color: black; */
+}
+
+.nav {
+    width: 1080px;
+    height: 50px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    /* background-color: brown; */
+}
+
+.body {
+    width: 510px;
+    height: 510px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    /* background-color: chartreuse; */
+}
+
+.footer {
+    width: 1080px;
+    height: 50px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    /* background-color:coral; */
+}
+
+
+.bloco {
+     width: 160px;
+     height: 160px;
+     padding: 5x;
+     margin: 5px;
+     background-color:yellow;
+     float: left;
+     border-radius: 5px;
+}
+
+.btn-group{
+    margin-left: 390px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color:blueviolet;
+    color: floralwhite;
+}
+
+
+#btnRemove, #btnCleam {
+    display: none;
+}
+
+button:hover {
+    opacity: 0.5;
+    transition: 0.1s;
+}
+
+button:disabled {
+    background-color: grey;
+    opacity: 0.5;
+    transition: 0s;
+}
+
+
+.texto {
+    width: 480px;
+    height: 30px;
+    padding: 10px;
+    margin-left: 290px;
+    background-color: indianred;
+    color:whitesmoke;
+    text-align: center;
+    border-radius: 5px;
+}
